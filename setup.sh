@@ -50,6 +50,7 @@ configure_git() {
 setup() {
   install_packages
   update_system
+  configure_git
 }
 
 setup

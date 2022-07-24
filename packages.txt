@@ -1,6 +1,8 @@
 alacritty
 base-devel
 curl
+docker
+docker-compose
 dunst
 feh
 firefox
