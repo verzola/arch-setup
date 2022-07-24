@@ -1,5 +1,6 @@
 alacritty
 base-devel
+bat
 curl
 docker
 docker-compose
@@ -32,5 +33,6 @@ rofi
 starship
 stow
 tmux
+unzip
 vim
 wget

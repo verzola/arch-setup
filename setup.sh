@@ -30,6 +30,22 @@ install_packages() {
   check
 }
 
+install_yay() {
+  step 'Installing yay'
+  sudo pacman -S git go
+  git clone https://aur.archlinux.org/yay.git
+  cd yay
+  makepkg -si
+  check
+
+}
+
+install_yay_packages() {
+  step 'Installing yay packages'
+  yay -S - < yay_packages.txt
+  check
+}
+
 update_system() {
   step 'Updating packages'
   sudo pacman -Syyu
@@ -50,6 +66,8 @@ configure_git() {
 setup() {
   install_packages
   update_system
+  install_yay
+  install_yay_packages
   configure_git
 }
 

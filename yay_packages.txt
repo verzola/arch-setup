@@ -1,0 +1,3 @@
+github-cli
+catppuccin-gtk-theme
+candy-icons-git
