@@ -1,6 +1,7 @@
 alacritty
 base-devel
 bat
+btop
 curl
 docker
 docker-compose
