@@ -30,6 +30,7 @@ python
 python-pip
 python-pywal
 ranger
+ripgrep
 rofi
 starship
 stow
