@@ -7,7 +7,10 @@ firefox
 fzf
 git
 htop
+hub
 i3-gaps
+kitty
+lxappearance
 maim
 man
 neofetch
@@ -18,8 +21,13 @@ openssh
 openssl
 picom
 polybar
+python
+python-pip
+python-pywal
+ranger
 rofi
 starship
+stow
 tmux
 vim
 wget
