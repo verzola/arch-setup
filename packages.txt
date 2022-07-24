@@ -9,6 +9,7 @@ git
 htop
 hub
 i3-gaps
+i3lock
 kitty
 lxappearance
 maim
