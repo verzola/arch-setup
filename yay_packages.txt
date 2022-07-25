@@ -2,3 +2,5 @@ candy-icons-git
 catppuccin-gtk-theme
 diff-so-fancy
 github-cli
+ttf-cascadia-code
+ttf-fira-code
