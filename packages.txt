@@ -40,3 +40,4 @@ tmux
 unzip
 vim
 wget
+zsh
