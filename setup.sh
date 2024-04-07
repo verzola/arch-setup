@@ -26,7 +26,7 @@ warning() {
 
 install_packages() {
   step 'Installing packages'
-  sudo pacman -S - < packages.txt
+  sudo pacman -S - < pacman_packages.txt
   check
 }
 
